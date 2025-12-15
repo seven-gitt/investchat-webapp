@@ -1,0 +1,47 @@
+/*
+Copyright 2018-2024 New Vector Ltd.
+
+SPDX-License-Identifier: AGPL-3.0-only OR GPL-3.0-only OR LicenseRef-Element-Commercial
+Please see LICENSE files in the repository root for full details.
+*/
+
+.mx_MStickerBody_wrapper {
+    padding: 10px 0px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.mx_MStickerBody_hidden {
+    max-width: 150px;
+    text-decoration: none;
+    text-align: center;
+
+    /* To center the text in the middle of the frame */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mx_MStickerBody_placeholder {
+    /* centering */
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+}
+
+/* Limit sticker size when displayed in chat */
+.mx_MStickerBody_wrapper img,
+.mx_MStickerBody_wrapper .mx_MImageBody_thumbnail {
+    max-width: 130px !important;
+    max-height: 130px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* Override container size for stickers */
+.mx_MStickerBody_wrapper .mx_MImageBody_thumbnail_container {
+    max-width: 150px !important;
+    max-height: 150px !important;
+    width: auto !important;
+    height: auto !important;
+}
