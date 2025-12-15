@@ -40,8 +40,8 @@
     "disable_login_language_selector": false,
     "disable_3pid_login": true,
     
-    "brand": "SevenChat",
-    "app_name": "SevenChat",
+    "brand": "7",
+    "app_name": "7",
     "welcome_page_url": "https://sevenchat.space",
     
     "integrations_ui_url": "https://scalar.vector.im/",
@@ -152,7 +152,7 @@
     "element_call": {
         "url": "https://call.element.io",
         "participant_limit": 8,
-        "brand": "SevenChat Call"
+        "brand": "7 Call"
     },
     
     "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx",
@@ -176,5 +176,5 @@
     },
     
     "piwik": false,
-    "analytics_owner": "SevenChat"
+    "analytics_owner": "7"
 }
