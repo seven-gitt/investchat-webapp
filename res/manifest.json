@@ -4,8 +4,8 @@
     "display": "standalone",
     "theme_color": "#76CFA6",
     "background_color": "#ffffff",
-    "start_url": "/sevenchat-webapp/",
-    "scope": "/sevenchat-webapp/",
+    "start_url": "/7chat-webapp/",
+    "scope": "/7chat-webapp/",
     "icons": [
         {
             "src": "/sevenchat-webapp/vector-icons/44.png",
